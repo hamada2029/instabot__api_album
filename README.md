@@ -1,5 +1,5 @@
 # instabot__api_album
-Post multiple images by Python.  
+Post multiple images to Instagram by Python.  
 Can not video. (for now?)
 ## Usage
 ```
