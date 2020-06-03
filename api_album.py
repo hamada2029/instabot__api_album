@@ -273,11 +273,13 @@ class MyBot(Bot):
         return video_metadata(self, upload_id, duration, size)
 
     def upload_album(self, medias, caption=None, **kwargs):
-        return upload_album(self, medias, caption=None, **kwargs)
+        return upload_album(self, medias, caption, **kwargs)
 
 
 def main():
     """Main."""
+    bot = MyBot()
+    print(dir(bot.api))
 
 
 if __name__ == '__main__':
